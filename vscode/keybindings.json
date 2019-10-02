@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+cmd+0",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.terminal.runActiveFile"
+    }
+]

@@ -1,0 +1,6 @@
+setuptools
+virtualenv
+pylint
+flake8
+Sphinx
+ipython

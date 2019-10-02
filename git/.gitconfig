@@ -1,0 +1,7 @@
+[core]
+	editor = /usr/bin/vim
+	excludesfile = ~/.gitignore_global
+	excludesfiles = /Users/yaseen/.gitignore_global
+[user]
+	name = yaseenlotfi
+	email = yaseen.lotfi@gmail.com

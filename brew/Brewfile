@@ -1,0 +1,38 @@
+tap 'homebrew/cask'
+
+### Terminal Basics
+brew 'vim --with-override-system-vi'
+brew 'git'
+brew 'git-lfs'
+brew 'base64'
+brew 'rsync'
+brew 'gzip'
+brew 'unzip'
+brew 'grep'
+brew 'gpg'
+brew 'curl'
+brew 'wget'
+brew 'openssl'
+brew 'netcat'
+
+### Compilers, Languages, and Frameworks
+brew 'gcc'
+brew 'llvm'
+cask 'java'
+brew 'scala'
+brew 'apache-spark'
+brew 'python'
+brew 'node'
+brew 'r'
+brew 'go'
+brew 'awscli'
+brew 'azure-cli'
+brew 'heroku'
+
+# GUIs, IDEs, and such
+cask 'iterm2'
+cask 'docker'
+cask 'rstudio'
+cask 'visual-studio-code'
+cask 'postman'
+cask 'google-cloud-sdk'
