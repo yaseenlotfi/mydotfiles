@@ -1,7 +1,22 @@
 ## Dotfiles
 One-stop-shop for my MacOS setup to handle installations and configuration.
 
-#### Project Structure
+#### Usage
+For a new system, use:
+
+```
+curl -LOk https://github.com/yaseenlotfi/mydotfiles/archive/master.zip
+unzip master.zip
+cd mydotfiles-master/ && bash run.sh
+```
+
+For systems with Git or contributing:
+
+```
+git clone https://github.com/yaseenlotfi/mydotfiles.git
+```
+
+## Project Structure
 Everything is tied together with the `run.sh` script. In general, each *topic* that requires setup has it's own directory and set of scripts. These topics, however, depend on the `brew` and `cask` installations.
 
 The core of what makes this system work is the concept of symlinking (think shortcuts) and backing up dotfiles. This means that the user:
