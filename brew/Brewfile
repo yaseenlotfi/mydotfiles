@@ -1,7 +1,8 @@
 tap 'homebrew/cask'
+tap 'heroku/brew'
 
 ### Terminal Basics
-brew 'vim --with-override-system-vi'
+brew 'vim'
 brew 'git'
 brew 'git-lfs'
 brew 'base64'
