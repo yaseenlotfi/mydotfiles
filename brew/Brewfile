@@ -1,5 +1,4 @@
 tap 'homebrew/cask'
-tap 'heroku/brew'
 
 ### Terminal Basics
 brew 'vim'
@@ -19,20 +18,13 @@ brew 'netcat'
 ### Compilers, Languages, and Frameworks
 brew 'gcc'
 brew 'llvm'
-cask 'java'
-brew 'scala'
 brew 'python'
+brew 'pyenv'
+brew 'pyenv-virtualenv'
 brew 'node'
-brew 'r'
-brew 'go'
-brew 'awscli'
-brew 'azure-cli'
-brew 'heroku'
 
 # GUIs, IDEs, and such
-cask 'iterm2'
 cask 'docker'
-cask 'rstudio'
 cask 'visual-studio-code'
 cask 'postman'
 cask 'google-cloud-sdk'
