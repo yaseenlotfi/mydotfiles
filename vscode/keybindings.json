@@ -7,5 +7,9 @@
     {
         "key": "shift+cmd+r",
         "command": "workbench.action.terminal.runActiveFile"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.focusSideBar"
     }
 ]

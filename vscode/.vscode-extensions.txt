@@ -1,3 +1,5 @@
 ms-python.python
 ms-azuretools.vscode-docker
 yzhang.markdown-all-in-one
+eamodio.gitlens
+kevinrose.vsc-python-indent
