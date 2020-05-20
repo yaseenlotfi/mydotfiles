@@ -2,8 +2,10 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 
-    "python.linting.pylintEnabled": true,
-    "python.linting.pep8Enabled": false,
+    "terminal.integrated.shell.osx": "/bin/bash",
+
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
     "python.pythonPath": "/usr/local/bin/python3",
 
     "[python]": {
