@@ -2,7 +2,7 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 
-    "terminal.integrated.shell.osx": "/bin/bash",
+    "terminal.integrated.shell.osx": "/bin/zsh",
 
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
